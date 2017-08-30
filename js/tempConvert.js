@@ -17,8 +17,10 @@ function convertTempToC(fahren){
     console.log(fahren+' degrees Fahrenheit is '+celcius+' degrees Celsius.');
   }
 };
+
+
 function convertTempToF(celcius2){
-  var fahren2 = Math.floor((celcius2 - 32)*(5/9));
+  var fahren2 = Math.floor((celcius2 + 32)*(9/5));
   if(fahren2 === 1){
     console.log(celcius2+' degrees Celcius is '+fahren2+' degree Fahrenheit.');
   }else if(celcius2 === 1){
